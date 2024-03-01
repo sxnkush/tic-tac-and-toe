@@ -168,6 +168,7 @@
         var chance = 0;
         var count = 1;
         document.getElementById("print").innerHTML = "Player X turn"
+        
         //humne variables ko function ke andar isliye define kra kyuki agr hum bahar define ke rhr thr to b1,b2...b9 mein initial value store ho rhi thi jo ki empty string thi, aur jab hum value ko function main update kr rahe the tab b1,b2....b9 kin value update nahi ho rahi thi kyuki b1,b2...b9 main to phele hi value aa gyi aur wo document.getElementById("box1").value is ccheex ki value store kar chuka hai na ki wo is cheez ko represent kar rha hai.
         
         function func()
@@ -198,9 +199,9 @@
         if(b1 == 'X' && b2 == 'X' && b3 == 'X')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn1.style.color = 'red';
-            btn2.style.color = 'red';
-            btn3.style.color = 'red';
+            btn1.style.backgroundColor = '#353535';
+            btn2.style.backgroundColor = '#353535';
+            btn3.style.backgroundColor = '#353535';
 
             btn4.disabled = true;
             btn5.disabled = true;
@@ -212,9 +213,9 @@
         else if(b1 == 'X' && b5 == 'X' && b9 == 'X')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn1.style.color = 'red';
-            btn5.style.color = 'red';
-            btn9.style.color = 'red';
+            btn1.style.backgroundColor = '#353535';
+            btn5.style.backgroundColor = '#353535';
+            btn9.style.backgroundColor = '#353535';
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -226,9 +227,9 @@
         else if(b1 == 'X' && b4 == 'X' && b7 == 'X')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn1.style.color = 'red'
-            btn4.style.color = 'red'
-            btn7.style.color = 'red'
+            btn1.style.backgroundColor = '#353535'
+            btn4.style.backgroundColor = '#353535'
+            btn7.style.backgroundColor = '#353535'
 
             btn5.disabled = true;
             btn2.disabled = true;
@@ -240,9 +241,9 @@
         else if(b3 == 'X' && b5 == 'X' && b7 == 'X') 
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn3.style.color = 'red'
-            btn5.style.color = 'red'
-            btn7.style.color = 'red'
+            btn3.style.backgroundColor = '#353535'
+            btn5.style.backgroundColor = '#353535'
+            btn7.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -254,9 +255,9 @@
         else if(b3 == 'X' && b6 == 'X' && b9 == 'X') 
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn3.style.color = 'red'
-            btn6.style.color = 'red'
-            btn9.style.color = 'red'
+            btn3.style.backgroundColor = '#353535'
+            btn6.style.backgroundColor = '#353535'
+            btn9.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -268,9 +269,9 @@
         else if(b4 == 'X' && b5 == 'X' && b6 == 'X') 
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn4.style.color = 'red'    
-            btn5.style.color = 'red'
-            btn6.style.color = 'red'
+            btn4.style.backgroundColor = '#353535'    
+            btn5.style.backgroundColor = '#353535'
+            btn6.style.backgroundColor = '#353535'
 
             btn1.disabled = true;
             btn2.disabled = true;
@@ -282,9 +283,9 @@
         else if(b7 == 'X' && b8 == 'X' && b9 == 'X')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn7.style.color = 'red'
-            btn8.style.color = 'red'
-            btn9.style.color = 'red'
+            btn7.style.backgroundColor = '#353535'
+            btn8.style.backgroundColor = '#353535'
+            btn9.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -297,9 +298,9 @@
         else if(b1 == 'X' && b4 == 'X' && b7 == 'X')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn7.style.color = 'red'
-            btn1.style.color = 'red'
-            btn4.style.color = 'red'
+            btn7.style.backgroundColor = '#353535'
+            btn1.style.backgroundColor = '#353535'
+            btn4.style.backgroundColor = '#353535'
 
             btn9.disabled = true;
             btn2.disabled = true;
@@ -312,9 +313,9 @@
         else if(b2 == 'X' && b5 == 'X' && b8 == 'X')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn2.style.color = 'red'
-            btn8.style.color = 'red'
-            btn5.style.color = 'red'
+            btn2.style.backgroundColor = '#353535'
+            btn8.style.backgroundColor = '#353535'
+            btn5.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn9.disabled = true;
@@ -327,9 +328,9 @@
         else if(b3 == 'X' && b6 == 'X' && b9 == 'X')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn3.style.color = 'red'
-            btn6.style.color = 'red'
-            btn9.style.color = 'red'
+            btn3.style.backgroundColor = '#353535'
+            btn6.style.backgroundColor = '#353535'
+            btn9.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -342,9 +343,9 @@
         else if(b1 == 'O' && b2 == 'O' && b3 == 'O')
         {
             document.getElementById("print").innerHTML = "PLayer O won"
-            btn1.style.color = 'red'
-            btn2.style.color = 'red'
-            btn3.style.color = 'red'
+            btn1.style.backgroundColor = '#353535'
+            btn2.style.backgroundColor = '#353535'
+            btn3.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn5.disabled = true;
@@ -356,9 +357,9 @@
         else if(b1 == 'O' && b5 == 'O' && b9 == 'O')
         {
             document.getElementById("print").innerHTML = "PLayer O won"
-            btn1.style.color = 'red'
-            btn5.style.color = 'red'
-            btn9.style.color = 'red'
+            btn1.style.backgroundColor = '#353535'
+            btn5.style.backgroundColor = '#353535'
+            btn9.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -370,9 +371,9 @@
         else if(b1 == 'O' && b4 == 'O' && b7 == 'O')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn1.style.color = 'red'
-            btn4.style.color = 'red'
-            btn7.style.color = 'red'
+            btn1.style.backgroundColor = '#353535'
+            btn4.style.backgroundColor = '#353535'
+            btn7.style.backgroundColor = '#353535'
 
             btn5.disabled = true;
             btn2.disabled = true;
@@ -384,9 +385,9 @@
         else if(b3 == 'O' && b5 == 'O' && b7 == 'O') 
         {
             document.getElementById("print").innerHTML = "PLayer O won"
-            btn3.style.color = 'red'
-            btn5.style.color = 'red'
-            btn7.style.color = 'red'
+            btn3.style.backgroundColor = '#353535'
+            btn5.style.backgroundColor = '#353535'
+            btn7.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -398,9 +399,9 @@
         else if(b3 == 'O' && b6 == 'O' && b9 == 'O') 
         {
             document.getElementById("print").innerHTML = "PLayer O won"
-            btn3.style.color = 'red'
-            btn6.style.color = 'red'
-            btn9.style.color = 'red'
+            btn3.style.backgroundColor = '#353535'
+            btn6.style.backgroundColor = '#353535'
+            btn9.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -412,9 +413,9 @@
         else if(b4 == 'O' && b5 == 'O' && b6 == 'O') 
         {
             document.getElementById("print").innerHTML = "PLayer O won"
-            btn4.style.color = 'red'
-            btn5.style.color = 'red'
-            btn6.style.color = 'red'
+            btn4.style.backgroundColor = '#353535'
+            btn5.style.backgroundColor = '#353535'
+            btn6.style.backgroundColor = '#353535'
 
             btn1.disabled = true;
             btn2.disabled = true;
@@ -426,9 +427,9 @@
         else if(b7 == 'O' && b8 == 'O' && b9 == 'O')
         {
             document.getElementById("print").innerHTML = "PLayer O won"
-            btn7.style.color = 'red'
-            btn8.style.color = 'red'
-            btn9.style.color = 'red'
+            btn7.style.backgroundColor = '#353535'
+            btn8.style.backgroundColor = '#353535'
+            btn9.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -441,9 +442,9 @@
         else if(b1 == 'O' && b4 == 'O' && b7 == 'O')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn7.style.color = 'red'
-            btn1.style.color = 'red'
-            btn4.style.color = 'red'
+            btn7.style.backgroundColor = '#353535'
+            btn1.style.backgroundColor = '#353535'
+            btn4.style.backgroundColor = '#353535'
 
             btn9.disabled = true;
             btn2.disabled = true;
@@ -456,9 +457,9 @@
         else if(b2 == 'O' && b5 == 'O' && b8 == 'O')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn2.style.color = 'red'
-            btn8.style.color = 'red'
-            btn5.style.color = 'red'
+            btn2.style.backgroundColor = '#353535'
+            btn8.style.backgroundColor = '#353535'
+            btn5.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn9.disabled = true;
@@ -471,9 +472,9 @@
         else if(b3 == 'O' && b6 == 'O' && b9 == 'O')
         {
             document.getElementById("print").innerHTML = "PLayer X won"
-            btn3.style.color = 'red'
-            btn6.style.color = 'red'
-            btn9.style.color = 'red'
+            btn3.style.backgroundColor = '#353535'
+            btn6.style.backgroundColor = '#353535'
+            btn9.style.backgroundColor = '#353535'
 
             btn4.disabled = true;
             btn2.disabled = true;
@@ -516,6 +517,8 @@
             {
                 document.getElementById("box1").value = "O"
                 document.getElementById("box1").disabled = true 
+                document.getElementById("box1").style.color = 'red'
+                document.getElementById("box1").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         }
@@ -532,6 +535,8 @@
             {
                 document.getElementById("box2").value = "O"
                 document.getElementById("box2").disabled = true 
+                document.getElementById("box2").style.color = 'red'
+                document.getElementById("box2").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         }
@@ -548,6 +553,8 @@
             {
                 document.getElementById("box3").value = "O"
                 document.getElementById("box3").disabled = true 
+                document.getElementById("box3").style.color = 'red'
+                document.getElementById("box3").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         }
@@ -564,6 +571,8 @@
             {
                 document.getElementById("box4").value = "O"
                 document.getElementById("box4").disabled = true 
+                document.getElementById("box4").style.color = 'red'
+                document.getElementById("box4").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         }
@@ -580,6 +589,8 @@
             {
                 document.getElementById("box5").value = "O"
                 document.getElementById("box5").disabled = true 
+                document.getElementById("box5").style.color = 'red'
+                document.getElementById("box5").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         
@@ -597,6 +608,8 @@
             {
                 document.getElementById("box6").value = "O"
                 document.getElementById("box6").disabled = true 
+                document.getElementById("box6").style.color = 'red'
+                document.getElementById("box6").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         }
@@ -613,6 +626,8 @@
             {
                 document.getElementById("box7").value = "O"
                 document.getElementById("box7").disabled = true 
+                document.getElementById("box7").style.color = 'red'
+                document.getElementById("box7").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         }
@@ -629,6 +644,8 @@
             {
                 document.getElementById("box8").value = "O"
                 document.getElementById("box8").disabled = true 
+                document.getElementById("box8").style.color = 'red'
+                document.getElementById("box8").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         }
@@ -645,45 +662,58 @@
             {
                 document.getElementById("box9").value = "O"
                 document.getElementById("box9").disabled = true 
+                document.getElementById("box9").style.color = 'red'
+                document.getElementById("box9").style.textShadow = '2px 2px 10px red'
                 chance = 0
             }
         }
 
-        function reset_func()
-        {
-            document.getElementById("box1").value = "";
-            document.getElementById("box2").value = "";
-            document.getElementById("box3").value = "";
-            document.getElementById("box4").value = "";
-            document.getElementById("box5").value = "";
-            document.getElementById("box6").value = "";
-            document.getElementById("box7").value = "";
-            document.getElementById("box8").value = "";
-            document.getElementById("box9").value = "";
+        function reset_func()   
+        {   
             chance = 0;
             count = 1;
-            document.getElementById("box1").disabled = false;
-            document.getElementById("box2").disabled = false;
-            document.getElementById("box3").disabled = false;
-            document.getElementById("box4").disabled = false;
-            document.getElementById("box5").disabled = false;
-            document.getElementById("box6").disabled = false;
-            document.getElementById("box7").disabled = false;
-            document.getElementById("box8").disabled = false;
-            document.getElementById("box9").disabled = false;
-
-            document.getElementById("box1").style.color = 'aqua';
-            document.getElementById("box2").style.color = 'aqua';
-            document.getElementById("box3").style.color = 'aqua';
-            document.getElementById("box4").style.color = 'aqua';
-            document.getElementById("box5").style.color = 'aqua';
-            document.getElementById("box6").style.color = 'aqua';
-            document.getElementById("box7").style.color = 'aqua';
-            document.getElementById("box8").style.color = 'aqua';
-            document.getElementById("box9").style.color = 'aqua';
-
             document.getElementById("print").innerHTML = "Player X turn"
+            let ele = document.querySelectorAll(".box");
+            Array.from(ele).forEach(element=>
+            {
+                element.value = "";
+                element.disabled = false ;
+                element.style.color = 'aqua';
+                element.style.textShadow = '2px 2px 10px aqua';
+                element.style.backgroundColor = "rgba(240, 248, 255, 0.043)";
+            })
+            // document.getElementById("box1").value = "";
+            // document.getElementById("box2").value = "";
+            // document.getElementById("box3").value = "";
+            // document.getElementById("box4").value = "";
+            // document.getElementById("box5").value = "";
+            // document.getElementById("box6").value = "";
+            // document.getElementById("box7").value = "";
+            // document.getElementById("box8").value = "";
+            // document.getElementById("box9").value = "";
+            
+            // document.getElementById("box1").disabled = false;
+            // document.getElementById("box2").disabled = false;
+            // document.getElementById("box3").disabled = false;
+            // document.getElementById("box4").disabled = false;
+            // document.getElementById("box5").disabled = false;
+            // document.getElementById("box6").disabled = false;
+            // document.getElementById("box7").disabled = false;
+            // document.getElementById("box8").disabled = false;
+            // document.getElementById("box9").disabled = false;
+
+            // document.getElementById("box1").style.color = 'aqua';
+            // document.getElementById("box2").style.color = 'aqua';
+            // document.getElementById("box3").style.color = 'aqua';
+            // document.getElementById("box4").style.color = 'aqua';
+            // document.getElementById("box5").style.color = 'aqua';
+            // document.getElementById("box6").style.color = 'aqua';
+            // document.getElementById("box7").style.color = 'aqua';
+            // document.getElementById("box8").style.color = 'aqua';
+            // document.getElementById("box9").style.color = 'aqua';
         }
+        
+        
         
     </script>
 </body>
